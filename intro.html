@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAFNK - Distribución de frutas frescas de alta calidad">
+    <title>SAFNK - Distribución de Frutas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>SAFNK</h1>
+            <p>Distribución de Frutas Frescas</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>¡Frutas frescas y de calidad, directo a tu negocio!</h2>
+        <p>En SAFNK ofrecemos las mejores frutas para ti y tus clientes.</p>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto-lista">
+            <div class="producto">
+                <img src="https://as2.ftcdn.net/v2/jpg/03/92/69/09/1000_F_392690967_kaBTBUiCJrD75Q9RsdItOF0Fw7533nue.jpg">
+                <h3>Manzanas</h3>
+                <p>Manzanas frescas y crujientes, ideales para consumo directo o en jugos.</p>
+                <span>Precio: $1.50/kg</span>
+            </div>
+            <div class="producto">
+                <img src="https://3.bp.blogspot.com/-Q4fR0F7u8fo/UYF8l3quhDI/AAAAAAAAAeQ/NwU20-iA5a0/s1600/bananas2.jpg" alt="Bananas">
+                <h3>Bananas</h3>
+                <p>Bananas dulces y de textura suave, perfectas para batidos y postres.</p>
+                <span>Precio: $1.20/kg</span>
+            </div>
+            <div class="producto">
+                <img src="https://th.bing.com/th/id/OIP.sJlf0osGUHcAj35TdQnNXgHaFj?rs=1&pid=ImgDetMain" alt="Naranjas">
+                <h3>Naranjas</h3>
+                <p>Naranjas jugosas, ideales para preparar zumos refrescantes.</p>
+                <span>Precio: $1.00/kg</span>
+            </div>
+            <div class="producto">
+                <img src="https://www.imegalodon.com.mx/life/wp-content/uploads/2017/08/1071761388.jpg" alt="Uvas">
+                <h3>Uvas</h3>
+                <p>Uvas frescas y dulces, perfectas para el consumo directo.</p>
+                <span>Precio: $2.00/kg</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros">
+        <h2>Quiénes Somos</h2>
+        <p>SAFNK es una empresa dedicada a la distribución de frutas frescas, cultivadas y seleccionadas bajo estrictos estándares de calidad. Nuestro compromiso es ofrecerte productos frescos y saludables directamente a tu puerta.</p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SAFNK - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
