@@ -94,7 +94,12 @@ header nav ul li a {
     height: auto;
     border-radius: 8px;
 }
-
+img {
+    width:100%;
+    height:auto;/* mantiene la proporcion de la imagen */
+    display:block;/* elimina espacios extra debajo de la imagen */ 
+    }
+    
 .producto h3 {
     font-size: 20px;
     margin-top: 10px;
